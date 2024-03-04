@@ -44,24 +44,23 @@ function Projects({}: Props) {
                 </h4>
                 {data.live && (
                   <div className="flex">
-                    <h3 className="mr-4 font-semibold">Live url</h3>
                     <Link
                       className="text-blue-500 underline decoration-[#F7AB0A]/50 text-start"
                       href={data.live}
                     >
-                      {data.live}
+                      <button className="heroButton">Live</button>
                     </Link>
                   </div>
                 )}
                 {data.admin && (
-                  <div className="flex">
-                    <h3 className="mr-4 font-semibold">Admin </h3>
+                  <div className="flex items-center gap-5">
                     <Link
                       className="text-blue-500 underline decoration-[#F7AB0A]/50 text-start"
                       href="http://13.235.209.32/admin/login/?next=/admin/"
                     >
-                      {data.admin}
+                      <button className="heroButton">Admin</button>
                     </Link>
+                    <span>Testing: [admin], [123]</span>
                   </div>
                 )}
 
