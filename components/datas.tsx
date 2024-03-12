@@ -31,7 +31,7 @@ export const ProjectDatas = [
         id:"2",
         image: project2,
         title: "Movie Watch [UI]",
-        live:"https://nidhinnidhin.github.io/MovieWatch/",
+        live:"https://movie-watch-sigma.vercel.app/",
         technologies_frontend: "Html, Css, Javascipt",
         desc: "Our movie watch website UI design features fully responsive pages, meticulously designed with HTML, CSS, and JavaScript. The home page and detail page boast captivating animations, enhancing user engagement. With seamless transitions and interactive elements, our design prioritizes both functionality and aesthetics, ensuring an exceptional viewing experience across devices."
     }
@@ -40,7 +40,7 @@ export const ProjectDatas = [
         id: "3",
         image: project3,
         title: "Netflix Landing Page",
-        live:"https://nidhinnidhin.github.io/Netflix-landing-page/",
+        live:"https://netflix-landing-page-gamma.vercel.app/",
         technologies_frontend: "Html, Css, Javascipt",
         desc: "Crafted with HTML, CSS, and JavaScript, this Netflix landing page boasts seamless responsiveness on all devices. Enhanced UI elements and smooth scrolling animations elevate user experience. Explore dynamic buttons and interactive menus. With modern technologies, it ensures compatibility and accessibility across browsers, delivering a captivating browsing journey."
     }
